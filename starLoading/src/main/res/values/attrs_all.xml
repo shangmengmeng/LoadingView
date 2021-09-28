@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--**********************************************
+       *              LoadingView                  *
+     **********************************************-->
+    <declare-styleable name="StarLoadingView">
+        <attr name="star_loading_size" format="dimension" />
+        <attr name="android:color" />
+    </declare-styleable>
+</resources>
