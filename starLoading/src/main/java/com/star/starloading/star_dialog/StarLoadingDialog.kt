@@ -21,7 +21,7 @@ class StarLoadingDialog(private var fragmentActivity: FragmentActivity) : Dialog
     ILoadingDialogMethod {
     private var loadingView: StarLoadingView? = null
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val dialog = Dialog(requireActivity())
+        val dialog = Dialog(requireActivity(),R.style.StarLoadingDialog)
         dialog.setContentView(R.layout.widget_layout_loading_view)
         val layoutParams: WindowManager.LayoutParams =
             dialog.window?.attributes ?: throw IllegalAccessException("错误dialog不能继续")
